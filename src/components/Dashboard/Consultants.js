@@ -10,7 +10,7 @@ const Consultants = () => {
     return (
         <div className="card">
             <div className="card-body">
-                <span className="fs-1 fw-bold">{consultants}</span><span className="float-end fs-1"><FontAwesomeIcon icon={faCircleUser} /></span>
+                <span className="fw-bold info-size">{consultants}</span><span className="float-end fs-1"><FontAwesomeIcon icon={faCircleUser} /></span>
             </div>
             <ul className="list-group list-group-flush">
                 <li className="list-group-item">

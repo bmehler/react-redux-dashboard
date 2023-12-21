@@ -25,16 +25,16 @@ const MainSection = () => {
             <div className="screen-right">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-lg-3 topic-box">
+                        <div className="col-lg-3 info-box">
                             <Bestseller consultant={consultant} />
                         </div>
-                        <div className="col-lg-3 topic-box">
+                        <div className="col-lg-3 info-box">
                             <Target consultant={consultant} />
                         </div>
-                        <div className="col-lg-3 topic-box">
+                        <div className="col-lg-3 info-box">
                             <Satisfaction consultant={consultant} />
                         </div>
-                        <div className="col-lg-3 topic-box">
+                        <div className="col-lg-3 info-box">
                             <Consultants />
                         </div>
                     </div>

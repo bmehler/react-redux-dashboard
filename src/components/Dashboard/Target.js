@@ -29,7 +29,7 @@ const Target = (props) => {
     return (
         <div className="card">
             <div className="card-body">
-                <span className="fs-1 fw-bold">{target}%</span><span className="float-end fs-1"><Circle circle={target} /></span>
+                <span className="fw-bold info-size">{target}%</span><span className="float-end fs-1"><Circle circle={target} /></span>
             </div>
             <ul className="list-group list-group-flush">
                 <li className="list-group-item">

@@ -27,7 +27,7 @@ const Satisfaction = (props) => {
     return (
         <div className="card">
             <div className="card-body"> 
-                <span className="fs-1 fw-bold">{percent}%</span><span className="float-end fs-1"><Smiley smiley={obj}/></span>
+                <span className="fw-bold info-size">{percent}%</span><span className="float-end fs-1"><Smiley smiley={obj}/></span>
             </div>
             <ul className="list-group list-group-flush">
                 <li className="list-group-item">
