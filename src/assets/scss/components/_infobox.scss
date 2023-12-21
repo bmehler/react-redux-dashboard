@@ -13,3 +13,15 @@
       font-size: calc(1rem + 1.5vw) !important;
    }
 }
+
+.best {
+   color: $infobox-best;
+}
+
+.middle {
+   color: $infobox-middle;
+}
+
+.worse {
+   color: $infobox-worse;
+}

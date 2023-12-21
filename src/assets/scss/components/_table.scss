@@ -13,20 +13,20 @@ table {
 }
 
 table thead {
-    color: #fff;
-    background-color: #2096f3;
+    color: $text-white;
+    background-color: $table-head
 }
 
 table th,
 table td {
     font-size: 20px;
     font-weight: 300;
-    border: solid 1px #d7dbd8;
+    border: solid 1px $table-border;
     padding: 10px
 }
 
 .page-link {
-    color: #2096f3 !important
+    color: $table-pagination !important
 }
 
 .page-link:focus {
@@ -36,8 +36,8 @@ table td {
 .page-link.active,
 .active>.page-link {
     z-index: 3;
-    color: #2096f3 !important;
-    background-color: #1e1a32 !important;
+    color: $table-pagination !important;
+    background-color: $table-bg-pagination !important;
     border: none !important;
 }
 
@@ -52,16 +52,4 @@ table td {
     @include bp-xlarge {
         display: flex !important;
     }
-}
-
-.best {
-    color: #ffc109;
-}
-
-.middle {
-    color: #4051b5;
-}
-
-.worse {
-    color: #e91e63;
 }

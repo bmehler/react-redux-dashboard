@@ -1,7 +1,13 @@
 .donut {
+    margin: 0 auto;
+    
     @include bp-medium {
         width: 60% !important;
         height: 60% !important;
-        margin: 0 auto;
-        }
     }
+
+    @include bp-xlarge {
+        width: 70% !important;
+        height: 70% !important;
+    }
+}

@@ -2,12 +2,12 @@ html,
 body {
     height: 100%;
     width: 100%;
-    color: #1e1a32;
+    color: $body-color;
 }
 
 .demo {
-    background-color: #2096f3;
-    color: #fff;
+    background-color: $sidebar-color;
+    color: $text-white;
 }
 
 .main-section {
@@ -15,6 +15,6 @@ body {
 }
 
 h3 {
-    color: #fff;
+    color: $text-white;
     font-weight: 300;
 }

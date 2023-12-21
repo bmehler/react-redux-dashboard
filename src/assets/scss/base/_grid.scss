@@ -1,19 +1,17 @@
 .screen-left {
     flex: 1;
-    background-color: #2096f3;
+    background-color: $sidebar-color;
     color: #fff;
 
     @include bp-large {
         flex: 0 0 350px;
-        background-color: #2096f3;
-        color: #fff
     }
 }
 
 .screen-right {
     height: 100% !important;
-    background-color: #1e1a32;
-    color: #fff;
+    background-color: $dashboard-bg-color;
+    color: $text-white;
     min-height: 100vh !important;
 
     @include bp-large {
