@@ -1,0 +1,50 @@
+.active {
+    background-color: #1e1a32;
+}
+
+.sidebar-row {
+    display: flex;
+    border: none;
+    justify-content: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar-left {
+    flex-basis: 25%;
+}
+
+.sidebar-right {
+    flex-basis: 75%;
+}
+
+.sidebar-icon {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.sidebar-button {
+    text-align: left;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    padding-top: 5px;
+
+    @include bp-medium {
+        padding-top: 30px;
+    }
+
+    @include bp-large {
+        padding-top: 0;
+    }
+}
+
+ .sales-name {
+    @include bp-medium {
+        font-size: 1.25rem;
+    }
+    
+    @include bp-large {
+        font-size: 1rem
+    }
+ }

@@ -1,0 +1,23 @@
+.screen-left {
+    flex: 1;
+    background-color: #2096f3;
+    color: #fff;
+
+    @include bp-large {
+        flex: 0 0 350px;
+        background-color: #2096f3;
+        color: #fff
+    }
+}
+
+.screen-right {
+    height: 100% !important;
+    background-color: #1e1a32;
+    color: #fff;
+    min-height: 100vh !important;
+
+    @include bp-large {
+        flex: 2;
+        height: 1200px !important;
+    }
+ }

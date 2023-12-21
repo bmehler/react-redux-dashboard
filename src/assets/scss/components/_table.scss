@@ -1,0 +1,67 @@
+.collapse {
+    border-collapse: collapse;
+}
+
+table {
+    margin: 1em;
+    border: solid 1px;
+    width: 99%;
+    
+    @include bp-xlarge {
+        display: inline-table !important;
+    }
+}
+
+table thead {
+    color: #fff;
+    background-color: #2096f3;
+}
+
+table th,
+table td {
+    font-size: 20px;
+    font-weight: 300;
+    border: solid 1px #d7dbd8;
+    padding: 10px
+}
+
+.page-link {
+    color: #2096f3 !important
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+.page-link.active,
+.active>.page-link {
+    z-index: 3;
+    color: #2096f3 !important;
+    background-color: #1e1a32 !important;
+    border: none !important;
+}
+
+.previous,
+.next {
+    --bs-pagination-bg: transparent !important;
+}
+
+.pagination {
+    display: none !important;
+
+    @include bp-xlarge {
+        display: flex !important;
+    }
+}
+
+.best {
+    color: #ffc109;
+}
+
+.middle {
+    color: #4051b5;
+}
+
+.worse {
+    color: #e91e63;
+}
